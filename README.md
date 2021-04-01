@@ -10,5 +10,5 @@ The jobs in the real trace from Tencent are periodically executed offline jobs, 
 ## Classification of the CGP jobs
 
 | All-active algorithms | Non-all-active algorithms |
-| ------- | ----------- |
+| ----- | ----------- |
 |  PageRank, WCC, k-core, Label propagation, Louvain modularity, k-means, Graph coloring, MIS, Maximal matching, and Degree centrality | SSSP and BFS | 
