@@ -9,7 +9,7 @@ The jobs in the real trace from Tencent are periodically executed offline jobs, 
 
 In order to emphasise the difference between the query plans under the TPC benchmarks and Grab-Traces, we plotted a sample of 245,849 logical plans, obtained over 2 consecutive months in Grab, on their node count and maximum tree depth. We contrasted these plans with TPC-DS & TPC-H templates. The maximum plan (size, depth) observed was (477, 38) for TPC-H, (883, 73) for TPC-DS and (4969, 321) for Grab. 
 
-![grab-traces-query-plans](Figures/traces.pdf)
+![grab-traces-query-plans](Figures/traces.png)
 
 From the picture, two things become clear:
 - Grab's query plans are diverse: We observed a range of very large and small plans issued to our Presto clusters
