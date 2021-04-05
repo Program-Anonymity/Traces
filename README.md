@@ -23,7 +23,7 @@ From the picture, two things become clear:
 |  PageRank, WCC, k-core, Label propagation, Louvain modularity, k-means, Graph coloring, MIS, Maximal matching, and Degree centrality | SSSP and BFS | 
 
 ## Dataset
-We are releasing both our Grab-Traces & TPC-DS dataset, as part of our conference submission to Sigmod 2021.
+We are releasing both our Grab-Traces & TPC-DS dataset, as part of our conference submission to SC 2021.
 
 There are 2 query plan dataset in this repository
 
