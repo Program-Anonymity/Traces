@@ -17,7 +17,7 @@ From the picture, two things become clear:
 - Query volumes are large: We observed many distinct queries issued to our Presto clusters. At scale, many of the existing query featurization techniques may be highly inefficient.
 
 ## Classification of the CGP jobs
-The jobs traced from Tencent can be classified into two categories: all-active algorithms (all vertices are active at the beginning) and non-all-active algorithms (a subset of vertices are active at the beginning).
+The CGP jobs traced from Tencent can be classified into two categories: all-active algorithms (all vertices are active at the beginning) and non-all-active algorithms (a subset of vertices are active at the beginning).
 
 | All-active algorithms | Non-all-active algorithms |
 | ----- | ----------- |
