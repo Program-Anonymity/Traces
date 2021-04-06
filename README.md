@@ -11,10 +11,10 @@ In order to emphasise the difference between the query plans under the TPC bench
 
 ![traces](Figures/traces.png)
 
-From the picture, two things become clear:
-- Grab's query plans are diverse: We observed a range of very large and small plans issued to our Presto clusters
+From the above pictures, two things become clear:
+- The number of the CGP jobs is large: We observed many distinct graph processing jobs issued to the same platform. At scale, many of the existing graph processing techniques may be highly inefficient.
 
-- Query volumes are large: We observed many distinct queries issued to our Presto clusters. At scale, many of the existing query featurization techniques may be highly inefficient.
+- The CGP jobs are periodically executed offline jobs: We observed the CGP jobs are periodically submitted to the same platform daily.
 
 ## Classification of the CGP jobs
 The CGP jobs traced from Tencent can be classified into two categories: all-active algorithms (all vertices are active at the beginning) and non-all-active algorithms (a subset of vertices are active at the beginning).
