@@ -13,7 +13,7 @@ From the above picture, two things become clear:
 - The CGP jobs are periodically executed offline jobs: We observed the CGP jobs are periodically submitted to the same platform daily, and the number of the CGP jobs varies   periodically.
 
 ## Classification of the CGP jobs
-The CGP jobs traced from Tencent can be classified into two categories: all-active algorithms (all vertices are active at the beginning) and non-all-active algorithms (a subset of vertices are active at the beginning).
+The CGP jobs traced from Tencent can be classified into two categories: all-active algorithms and non-all-active algorithms. The former traverses the graph starting from all vertices while the latter starts from a subset of vertices.
 
 | All-active algorithms | Non-all-active algorithms |
 | ----- | ----------- |
