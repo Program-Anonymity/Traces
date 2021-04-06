@@ -8,7 +8,7 @@ We collect one month job logs from the computing cluster of a social network com
 ![traces](Figures/traces.png)
 
 From the above picture, two things become clear:
-- The number of the CGP jobs is large: We observed many distinct graph processing jobs issued to the same platform. At peak time, there are more than 45 jobs pending on the platform. At scale, many of the existing graph processing techniques may be highly inefficient.
+- The number of the CGP jobs is huge: We observed many distinct graph processing jobs issued to the same platform. At peak time, there are more than 45 jobs pending on the platform. At scale, many of the existing graph processing techniques may be highly inefficient.
 
 - The CGP jobs are periodically executed offline jobs: We observed the CGP jobs are periodically submitted to the same platform daily, and the number of the CGP jobs varies   periodically.
 
