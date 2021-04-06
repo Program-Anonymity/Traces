@@ -23,15 +23,6 @@ The CGP jobs traced from Tencent can be classified into two categories: all-acti
 | ----- | ----------- |
 |  The variants of PageRank, WCC, k-core, Label propagation, Louvain modularity, k-means, Graph coloring, MIS, Maximal matching, and Degree centrality | The variants of SSSP and BFS | 
 
-## Dataset
-We are releasing both our Grab-Traces & TPC-DS dataset, as part of our conference submission to SC 2021.
-
-There are 2 query plan dataset in this repository
-
-Please see [grab-traces](Grab-Traces/)
-
-Please see [tpc-ds](TPC-DS/)
-
 ## Licensing 
 All data is subjected to the MIT open source licensing scheme. 
 For more details, please see [licensing](LICENSE)
