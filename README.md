@@ -7,12 +7,12 @@ Specifically, Traces feature more plan diversity, based on the range of large & 
 
 The jobs in the real trace from Tencent are periodically executed offline jobs, and can be classified into two categories: all-active algorithms (all vertices are active at the beginning) and non-all-active algorithms (a subset of vertices are active at the beginning). The proportion of the former is about 22.2%, and that of the latter is 77.8%. Specifically, the all-active algorithms are the variants of PageRank, WCC, k-core, Label propagation, Louvain modularity, k-means, Graph coloring, MIS, Maximal matching, and Degree centrality, while the non-all-active algorithms are implemented based on SSSP or BFS.
 
-In order to emphasise the difference between the query plans under the TPC benchmarks and Grab-Traces, we plotted a sample of 245,849 logical plans, obtained over 2 consecutive months in Grab, on their node count and maximum tree depth. We contrasted these plans with TPC-DS & TPC-H templates. The maximum plan (size, depth) observed was (477, 38) for TPC-H, (883, 73) for TPC-DS and (4969, 321) for Grab. 
+Fig. 1 depicts one week’s job distribution from Mar. 1, 2021, which shows that a significant number of jobs are executed concurrently every day. 
 
 ![traces](Figures/traces.png)
 
 From the above pictures, two things become clear:
-- The number of the CGP jobs is large: We observed many distinct graph processing jobs issued to the same platform. At scale, many of the existing graph processing techniques may be highly inefficient.
+- The number of the CGP jobs is large: We observed many distinct graph processing jobs issued to the same platform. At peak time, there are more than 45 jobs pending on the platform. At scale, many of the existing graph processing techniques may be highly inefficient.
 
 - The CGP jobs are periodically executed offline jobs: We observed the CGP jobs are periodically submitted to the same platform daily.
 
