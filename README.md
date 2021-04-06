@@ -19,7 +19,9 @@ The CGP jobs traced from Tencent can be classified into two categories: all-acti
 | ----- | ----------- |
 |  The variants of PageRank, WCC, k-core, Label propagation, Louvain modularity, k-means, Graph coloring, MIS, Maximal matching, and Degree centrality | The variants of SSSP and BFS | 
 
+## Detials of the Traces 
 
+We are releasing both the number of the executed CGP jobs & the number of the submitted CGP jobs traces, as part of our conference submission to SC 2021.
 
 ## Licensing 
 All data is subjected to the MIT open source licensing scheme. 
