@@ -21,7 +21,7 @@ The jobs traced from Tencent can be classified into two categories: all-active a
 
 | All-active algorithms | Non-all-active algorithms |
 | ----- | ----------- |
-|  PageRank, WCC, k-core, Label propagation, Louvain modularity, k-means, Graph coloring, MIS, Maximal matching, and Degree centrality | SSSP and BFS | 
+|  The variants of PageRank, WCC, k-core, Label propagation, Louvain modularity, k-means, Graph coloring, MIS, Maximal matching, and Degree centrality | The variants of SSSP and BFS | 
 
 ## Dataset
 We are releasing both our Grab-Traces & TPC-DS dataset, as part of our conference submission to SC 2021.
