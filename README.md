@@ -1,7 +1,7 @@
 # Traces
 
 ## Introduction
-This is a publicly available industry-based dataset of the _Concurrent iterative Graph Processing_ (CGP) jobs for research. 
+This is a publicly available industry-based trace of the _Concurrent iterative Graph Processing_ (CGP) jobs for research. 
 
 Specifically, Traces feature more plan diversity, based on the range of large & small query plans that are realistic to the query patterns seen in large scaled companies. All Traces query plans are based on real Presto queries executed & profiled over Grab's datalake.
 
