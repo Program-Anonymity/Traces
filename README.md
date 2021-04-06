@@ -3,7 +3,7 @@
 ## Introduction
 This is a publicly available industry-based trace of the _Concurrent iterative Graph Processing_ (CGP) jobs for research. 
 
-We collect one month job logs from the computing cluster of a social network company, i.e., [Tencent](https://www.tencent.com/en-us/about.html/), and plot one week’s job distribution from Mar. 1, 2021. Specifically, the CGP jobs in this real trace are periodically executed offline jobs, and can be classified into two categories: all-active algorithms (all vertices are active at the beginning) and non-all-active algorithms (a subset of vertices are active at the beginning). The proportion of the former is about 22.2%, and that of the latter is 77.8%. Specifically, the all-active algorithms are the variants of PageRank, WCC, k-core, Label propagation, Louvain modularity, k-means, Graph coloring, MIS, Maximal matching, Random Walk, and Degree centrality, while the non-all-active algorithms are implemented based on SSSP or BFS.
+We collect one month job logs from the computing cluster of a social network company, i.e., [Tencent](https://www.tencent.com/en-us/about.html/), and plot one week’s job distribution from Mar. 1, 2021. Specifically, the CGP jobs in this real trace are periodically executed offline jobs, and can be classified into two categories: all-active algorithms (all vertices are active at the beginning) and non-all-active algorithms (a subset of vertices are active at the beginning). The proportion of the former is about 22.2%, and that of the latter is 77.8%. Specifically, the all-active algorithms are the variants of PageRank, WCC, _k_-core, Label propagation, MIS, Random Walk, Louvain modularity, k-means, Graph coloring,  Maximal matching, and Degree centrality, while the non-all-active algorithms are implemented based on SSSP or BFS.
 
 ![traces](Figures/traces.png)
 
@@ -17,7 +17,7 @@ The CGP jobs traced from Tencent can be classified into two categories: all-acti
 
 | All-active algorithms | Non-all-active algorithms |
 | ----- | ----------- |
-|  The variants of PageRank, WCC, k-core, Label propagation, Louvain modularity, k-means, Graph coloring, MIS, Maximal matching, Random Walk, and Degree centrality | The variants of SSSP and BFS | 
+|  The variants of PageRank, WCC, _k_-core, Label propagation, MIS, Random Walk, Louvain modularity, k-means, Graph coloring,  Maximal matching, and Degree centrality | The variants of SSSP and BFS | 
 
 ## Detials of the Traces 
 
